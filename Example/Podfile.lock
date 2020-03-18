@@ -1,0 +1,16 @@
+PODS:
+  - WTUtils (0.1.0)
+
+DEPENDENCIES:
+  - WTUtils (from `../`)
+
+EXTERNAL SOURCES:
+  WTUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WTUtils: 253afd6051f5c8124c3a7bdd564410c230e809b4
+
+PODFILE CHECKSUM: a318137c80e5d2011aeeaf10fa5976788dda5939
+
+COCOAPODS: 1.9.1
