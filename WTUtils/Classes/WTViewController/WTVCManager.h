@@ -6,13 +6,13 @@
 //  Copyright © 2018年 chinasofti. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 #define kStoryBadrdNameMain @"Main"
 
 #define WTVCSharedManager [WTVCManager manager]
 #define WTVCByName(name) [WTVCManager viewControllerByName:(name)]
+
 
 
 @protocol WTVCManagerProtocol <NSObject>

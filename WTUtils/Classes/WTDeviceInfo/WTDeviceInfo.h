@@ -6,7 +6,14 @@
 //  Copyright © 2017年 SFS. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+/*
+ #if targetEnvironment(macCatalyst)
+ 
+ #endif
+ */
+
 
 #define DEVICE_SYSTEM_VERSION   ([[UIDevice currentDevice].systemVersion floatValue])
 #define DEVICE_MODEL            ([UIDevice currentDevice].model)
