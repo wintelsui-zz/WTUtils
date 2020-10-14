@@ -22,4 +22,10 @@
     return code;
 }
 
++ (BOOL)macCatalystMode {
+#if targetEnvironment(macCatalyst)
+    return YES;
+#endif
+    return NO;
+}
 @end
