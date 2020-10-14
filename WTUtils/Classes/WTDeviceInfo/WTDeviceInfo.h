@@ -17,7 +17,7 @@
 
 #define DEVICE_SYSTEM_VERSION   ([[UIDevice currentDevice].systemVersion floatValue])
 #define DEVICE_MODEL            ([UIDevice currentDevice].model)
-#define APP_MacCatalystMode     [WTDeviceInfo macCatalystMode]
+//#define APP_MacCatalystMode     [WTDeviceInfo macCatalystMode]
 
 #define IS_IPAD     (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 #define IS_IPHONE   (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
@@ -81,6 +81,6 @@
  */
 + (NSString *)devicMachineCode;
 
-+ (BOOL)macCatalystMode;
+//+ (BOOL)macCatalystMode;
 
 @end
